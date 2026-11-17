@@ -16,29 +16,35 @@ body {
 }
 
 img {
-  width: 28px;
-  padding: 3px;
+  width: 30px;
+  padding: 2px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 h1 {
-  font-size: 14px;
-  margin-top: 15p;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 13px;
+  font-size: 17px;
+  margin-top: 5px;
 }
 
 p {
-  font-size:
-    12,
-    4 px;
+  font-size: 17px;
+  margin-top: 4px;
+  object-fit: contain;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap:;
 }
 
 .section-center {
   width: 1440px;
-  height: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +63,7 @@ p {
 
 .grid-1 {
   display: grid;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(3, 120px);
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
